@@ -1,1 +1,14 @@
-<p>withchildren works!</p>
+    <h2>Section A</h2>
+    <builder-blocks-outlet
+      [blocks]="sectionA"
+      [builderState]="builderState"
+      [builderBlock]="builderBlock"
+      dataPath="component.options.sectionA"
+    ></builder-blocks-outlet>
+    <h2>Section B</h2>
+    <builder-blocks-outlet
+      [blocks]="sectionB"
+      [builderState]="builderState"
+      [builderBlock]="builderBlock"
+      dataPath="component.options.sectionB"
+    ></builder-blocks-outlet>
